@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-    font-family: "Anta",sans-serif;
+    font-family: "Anta", sans-serif;
     scroll-behavior: smooth;
 }
 
@@ -76,6 +76,9 @@ li
 }
 li a
 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
     text-decoration: none;
     padding: 1em 2em;
     color: #fff;
@@ -161,6 +164,15 @@ form{
 }
 
 .cadastro input{
+    border: none;
+    border-bottom: 0.08rem solid gray;
+    background-color: #f0f0f0;
+    padding: 0.24rem;
+    font-size: 1em;
+    outline: none;
+}
+
+.login input{
     border: none;
     border-bottom: 0.08rem solid gray;
     background-color: #f0f0f0;
