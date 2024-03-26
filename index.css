@@ -105,7 +105,7 @@ h1:hover{
 article{
     margin-top: 6.9em;
     background-color: white;
-    height: 100vh;
+    height: 120vh;
     border-style: solid;
     border-color: #9a2edb;
     border-width: .1em;
@@ -179,4 +179,45 @@ form{
     padding: 0.24rem;
     font-size: 1em;
     outline: none;
+}
+
+#home{
+    display: grid;
+    grid-template-rows: 1 1;
+    grid-template-columns: 1 1;
+    width: 50%;
+}
+
+#home> div{
+    text-align: justify;
+    border: #9a2edb solid .2em;
+    border-radius: .8em;
+    padding: .5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin: 1em;
+}
+
+#homeTextInvestimentos a>h2{
+
+        transition-duration: .2s;
+        color: black;
+
+}
+
+#homeTextInvestimentos a{
+    text-decoration: none;
+}
+
+#homeTextInvestimentos a> p{
+    text-decoration: none;
+    color: black;
+}
+
+#homeTextInvestimentos:hover{
+    h2{
+        transition-duration: .5s;
+        font-size: 1.8em;
+        color: #9a2edb;
+    }
 }
