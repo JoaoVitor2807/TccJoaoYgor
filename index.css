@@ -105,7 +105,7 @@ h1:hover{
 article{
     margin-top: 6.9em;
     background-color: white;
-    height: 120vh;
+    height: 100%;
     border-style: solid;
     border-color: #9a2edb;
     border-width: .1em;
