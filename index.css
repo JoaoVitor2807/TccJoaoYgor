@@ -7,7 +7,7 @@
 
 body
 {
-    background: black;     
+    background: white;     
     margin: 0;
 }
 
@@ -106,9 +106,6 @@ article{
     margin-top: 6.9em;
     background-color: white;
     height: 100%;
-    border-style: solid;
-    border-color: #9a2edb;
-    border-width: .1em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -200,8 +197,8 @@ form{
 
 #homeTextInvestimentos a>h2{
 
-        transition-duration: .2s;
-        color: black;
+    transition-duration: .2s;
+    color: black;
 
 }
 
@@ -220,4 +217,73 @@ form{
         font-size: 1.8em;
         color: #9a2edb;
     }
+}
+
+#homeTextTabela a>h2{
+
+    transition-duration: .2s;
+    color: black;
+
+}
+
+#homeTextTabela a{
+text-decoration: none;
+}
+
+#homeTextTabela a> p{
+text-decoration: none;
+color: black;
+}
+
+#homeTextTabela:hover{
+h2{
+    transition-duration: .5s;
+    font-size: 1.8em;
+    color: #9a2edb;
+}
+}
+
+#homeText1 h1{
+
+    transition-duration: .2s;
+    color: black;
+
+}
+
+
+#homeText1 p{
+text-decoration: none;
+color: black;
+}
+
+#homeText1:hover{
+    h1{
+        transition-duration: .5s;
+        font-size: 5em;
+        color: #9a2edb;
+    }
+}
+
+#homeTextCarteira a>h2{
+
+    transition-duration: .2s;
+    color: black;
+
+}
+
+#homeTextCarteira a{
+text-decoration: none;
+}
+
+#homeTextCarteira a> p{
+text-decoration: none;
+color: black;
+}
+
+#homeTextCarteira:hover{
+h2{
+    transition-duration: .5s;
+    font-size: 1.8em;
+    color: #9a2edb;
+}
 }
