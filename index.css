@@ -317,7 +317,100 @@ h2{
 #investimentos > div:hover{
     h2{
         transition-duration: .8s;
-        font-size: 2.3em;
+        font-size: 2em;
         color: #9a2edb;
     }
+    }
+    #acessarconta>a{
+        text-decoration: none;
+        color: #9a2edb;
+    }
+    .imagemperfil{
+        display: flex;
+        flex-direction: row;
+        width: 20%;
+        justify-content: right  ;
+        margin-right: 1.5em;
+    }
+    .imagemperfil>a>img{
+        border-radius: 100%;
+        width: 4em;
+    }
+    .tabelainformacoes{
+        background-color: #f2f2f2;
+        border-radius:1.5rem;
+        align-items: left;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        row-gap: .5rem;
+        width: 50em;
+        color: #9a2edb;
+    }
+    .alterarimagemperfil{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 40%;
+    }
+    .alterarimagemperfil>img{
+        border-radius: 100%;
+        width: 15em;
+        padding-top: .8em;
+       
+    }
+    .informacoes_e_alteracoes{
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+    }
+    .informacoes{
+        margin-left: .9em;
+        display: flex;
+        flex-direction: column;
+    }
+    .alteracoes{
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+        color: #f0f0f0;
+    }
+    .alteracoes>input{
+        width: 32%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color:#9a2edb;
+        border-radius: 2em;
+        margin: .3em;
+        color: #f0f0f0;
+        font-size: 1em;
+        border-color: white;
+        height: 3.5em;
+    }
+    .alterarimagemperfil>input{
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color:#9a2edb;
+        border-radius: 2em;
+        margin: .3em;
+        color: #f0f0f0;
+        font-size: 1em;
+        border-color: white;
+        height: 3.5em;
+    } 
+    #investimentos{
+        display: grid;
+        grid-template-rows: 1 1;
+        grid-template-columns: 1 1;
+        width: 50%;
+    }
+    #investimentos > div{
+        text-align: justify;
+        border: #9a2edb solid .2em;
+        border-radius: .8em;
+        padding: .5em;
     }
