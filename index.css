@@ -406,18 +406,7 @@ h2{
         border-width: .15em;
         height: 2em;
     } 
-    #investimentos{
-        display: grid;
-        grid-template-rows: 1 1;
-        grid-template-columns: 1 1;
-        width: 50%;
-    }
-    #investimentos > div{
-        text-align: justify;
-        border: gold solid .2em;
-        border-radius: .8em;
-        padding: .5em;
-    }
+    
     .Perfilh2{
       font-size: 2em;
       color: #000000;  
