@@ -32,9 +32,10 @@ header
     width: 20%;
     display: flex;
     flex-direction: row;
+    padding-left: 2em;
 }
 .logo>a>img{
-    width: 9em;
+    width: 5em;
 }
 ul
 {
@@ -151,6 +152,10 @@ form{
     row-gap: .5rem;
     width: 17.5em;
     color: gold;
+}
+form>a{
+    text-decoration: none;
+    color: #000000;
 }
 
 .DDD{
@@ -386,9 +391,9 @@ h2{
         background-color:gold;
         border-radius: 2em;
         margin: .3em;
-        color: #f0f0f0;
+        color: black;
         font-size: 1em;
-        border-color: white;
+        border-color: black;
         height: 3.5em;
     }
     .alterarimagemperfil>input{
