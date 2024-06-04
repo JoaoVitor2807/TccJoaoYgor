@@ -7,7 +7,7 @@
 
 body
 {
-    background: white;     
+    background: rgb(30, 30, 30);     
     margin: 0;
 }
 
@@ -22,10 +22,11 @@ header
     flex-direction: row;
     justify-content: left;
     align-items: center;
-    background-color: black;
+    background-color: rgb(30, 30, 30);
     border-style: solid;
     border-color: gold;
-    border-width: .1em;
+    border-width: .15em;
+    color: #eeeeee;
 }
 
 .logo{
@@ -43,6 +44,7 @@ ul
     justify-content: center;
     align-items: center;
     width: 60%;
+    padding-left: 3em;
 }
 .carteira{
     margin-right: 5em;
@@ -75,6 +77,7 @@ li
 {
     list-style: none;
     margin-right: 1em;
+    font-size: 1.1em;
 }
 li a
 {
@@ -83,13 +86,12 @@ li a
     flex-direction: row;
     text-decoration: none;
     padding: 1em 2em;
-    color: #fff;
+    color: #eeeeee;
     border-radius: 2em;
 }
 
 li a:hover
 {
-    background: #fff;
     color: gold;
 }
 
@@ -105,8 +107,8 @@ h1:hover{
     color: gold;
 }
 article{
-    margin-top: 6.9em;
-    background-color: white;
+    margin-top: 8em;
+    background-color: rgb(30, 30, 30);
     height: 90vh;
     display: flex;
     flex-direction: column;
@@ -201,7 +203,7 @@ form>a{
 
 #home> div{
     text-align: justify;
-    border: gold solid .2em;
+    border: gold solid .15em;
     border-radius: .8em;
     padding: .5em;
     padding-left: 2em;
@@ -212,7 +214,7 @@ form>a{
 #homeTextInvestimentos a>h2{
 
     transition-duration: .2s;
-    color: black;
+    color: #eeeeee
 
 }
 
@@ -222,7 +224,7 @@ form>a{
 
 #homeTextInvestimentos a> p{
     text-decoration: none;
-    color: black;
+    color: #eeeeee;
 }
 
 #homeTextInvestimentos:hover{
@@ -236,7 +238,7 @@ form>a{
 #homeTextTabela a>h2{
 
     transition-duration: .2s;
-    color: black;
+    color: #eeeeee;
 
 }
 
@@ -246,7 +248,7 @@ text-decoration: none;
 
 #homeTextTabela a> p{
 text-decoration: none;
-color: black;
+color: #eeeeee;
 }
 
 #homeTextTabela:hover{
@@ -260,14 +262,14 @@ h2{
 #homeText1 h1{
 
     transition-duration: .2s;
-    color: black;
+    color: #eeeeee;
 
 }
 
 
 #homeText1 p{
 text-decoration: none;
-color: black;
+color: #eeeeee;
 }
 
 #homeText1:hover{
@@ -281,7 +283,7 @@ color: black;
 #homeTextCarteira a>h2{
 
     transition-duration: .2s;
-    color: black;
+    color: #eeeeee;
 
 }
 
@@ -291,7 +293,7 @@ text-decoration: none;
 
 #homeTextCarteira a> p{
 text-decoration: none;
-color: black;
+color: #eeeeee;
 }
 
 #homeTextCarteira:hover{
