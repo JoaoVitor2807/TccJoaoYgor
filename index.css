@@ -182,15 +182,6 @@ form>a{
     color: gold;
 }
 
-.DDD{
-    border: none;
-    outline: none;
-    background-color: rgb(30, 30, 30);
-    height: 2rem;
-    width: 2.4rem;
-    color: goldenrod;
-}
-
 .cadastro input{
     border: none;
     border-bottom: 0.08rem solid gray;
@@ -464,4 +455,5 @@ h2{
       font-size: 2em;
       color: #dddddd;  
       margin-bottom: .4em;
+      margin-top: 3em;
     }
