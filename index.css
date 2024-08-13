@@ -25,7 +25,7 @@ header
     background-color: rgb(30, 30, 30);
     border-style: solid;
     border-color: gold;
-    border-width: .15em;
+    border-width: .2em;
     color: #eeeeee;
 }
 
@@ -45,7 +45,7 @@ ul
     justify-content: center;
     align-items: center;
     width: 60%;
-    padding-left: 3em;
+    padding-left: 4.5em;
 }
 .carteira{
     margin-right: 5em;
@@ -251,23 +251,23 @@ form>a{
     }
 }
 
-#homeTextTabela a>h2{
+#homeTextValores a>h2{
 
     transition-duration: .2s;
     color: #dddddd;
 
 }
 
-#homeTextTabela a{
+#homeTextValores a{
 text-decoration: none;
 }
 
-#homeTextTabela a> p{
+#homeTextValores a> p{
 text-decoration: none;
 color: #dddddd;
 }
 
-#homeTextTabela:hover{
+#homeTextValores:hover{
 h2{
     transition-duration: .5s;
     font-size: 1.8em;
