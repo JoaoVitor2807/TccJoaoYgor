@@ -72,8 +72,6 @@ ul
 .cadastrologin>h2{
     padding: .8em;
 }
-
-
 li
 {
     list-style: none;
@@ -186,7 +184,7 @@ form>a{
     border: none;
     border-bottom: 0.08rem solid gray;
     background-color: rgb(30, 30, 30);
-    padding: 0.24rem;
+    padding: 0.24em;
     font-size: 1em;
     outline: none;
     color: goldenrod;
@@ -202,11 +200,14 @@ form>a{
     border: none;
     border-bottom: 0.08rem solid gray;
     background-color: rgb(30, 30, 30);
-    padding: 0.24rem;
+    padding: 0.24em;
     font-size: 1em;
     outline: none;
 }
 .login{
+    width: 85%;
+}
+.cadastro{
     width: 85%;
 }
 
