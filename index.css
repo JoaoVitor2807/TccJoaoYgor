@@ -203,6 +203,7 @@ form>a{
     padding: 0.24em;
     font-size: 1em;
     outline: none;
+    color: goldenrod;
 }
 .login{
     width: 85%;
@@ -459,51 +460,100 @@ h2{
       margin-top: 3em;
     }
 
-.janela-modal{
-    width:100vw;
-    height:100vh;
-    position: relative;
-    top: 0;
-    left: 0;
-    background-color: #1313135d;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 999;
-}
+    
 
-.modal{
-    width: 40%;
-    min-width: 450px;
-    min-height: 200px;
-    background-color: #131313a2;
-    backdrop-filter: blur(10px);
-    padding: 50px;
-    border-radius: 20px;
-    border-color: goldenrod;
-    border-width: .2px;
-    border-style: solid;
-    color: goldenrod;
+#listagem-investimentos{
+    justify-content: center;
+    align-items: center;
+    color: #daa520;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 
-.modal > a{
-    text-decoration: none;
-}
+    
 
-.fechar{
-    position: absolute;
-    top: -10px;
-    right: -10px;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    border: 0;
-    background-color: red;
+    table {
+    width: 100%;
+    max-width: 60em;
+    margin: 0 auto;
+    border-collapse: collapse;
     color: white;
-    font-size: 20px;
-    cursor: pointer;
+    }
+
+    table th, table td {
+    border: 1px solid gold;
+    padding: 0.75em;
+    text-align: center;
+    background-color: rgb(45, 45, 45);
+    }
+
+    table th {
+    background-color: rgb(30, 30, 30);
+    color: gold;
+    }
+
+    table tr:hover {
+    background-color: rgb(50, 50, 50);
+    }
+}
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: rgb(30, 30, 30);
+    color: #dddddd;
+    margin-top: auto;
+}
+
+#cadastro-aplicacao{
+    justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin-top: 7em;
+
+    h2 {
+        margin-bottom: 1em;
+        color: gold;
+    }
+    
+    form {
+        background-color: rgb(45, 45, 45);
+        border-radius: 1rem;
+        padding: 1.5em;
+        width: 100%;
+        max-width: 20em;
+        color: #dddddd;
+        border: 0.1em solid gold;
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+    
+    form label {
+        font-size: 1em;
+        margin-bottom: 0.5em;
+    }
+    
+    form input, form select {
+        background-color: rgb(30, 30, 30);
+        color: #dddddd;
+        border: 1px solid #555;
+        padding: 0.5em;
+        border-radius: 0.5em;
+        font-size: 1em;
+    }
+    
+    form button {
+        background-color: goldenrod;
+        color: white;
+        border: none;
+        padding: 0.7em;
+        border-radius: 0.5em;
+        font-size: 1em;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    
+    form button:hover {
+        background-color: darkgoldenrod;
+    }
 }
