@@ -17,7 +17,7 @@
                 $stmt->fetch();
 
                 if (password_verify($password, $hashed_passord)) {
-                    $_SESSION['loggedin'] = true;
+                    $_SESSION['logado'] = true;
                     $_SESSION['id'] = $id;
                     $_SESSION['username'] = $username;
 
