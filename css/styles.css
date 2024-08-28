@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
 * {
 	box-sizing: border-box;
     font-family: "Anta", sans-serif;
@@ -24,7 +25,20 @@ body {
 	padding: 10px 0px 10px 20px;
 	margin-top: 7em;
 	background-color: rgb(30, 30, 30); 	
-    color: goldenrodx;
+}
+#search button{
+    background-color: goldenrod;
+    color: white;
+    border-radius: 1em;
+    font-size: .9em;
+}
+#search input::placeholder{
+    color: goldenrod;
+}
+#search input{
+    background-color: rgb(30, 30, 30);
+    border: .1em solid white;
+    color: gold;
 }
 
 #error {
@@ -48,21 +62,40 @@ body {
 .table-div {
 	padding: 10px 10px 10px 10px;
 	width: 35%;	
-	border: 1px solid #000;
+	border: 1px solid gold;
 	margin-left: 20px;
 	margin-right: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.table th, .table td{
+    border: 1px solid gold;
+    padding: .8em;
+}
+
+.table td{
+    background-color: rgb(45, 45, 45);
+}
+
+.table {
+    border-collapse: collapse;
+    margin-top: .1em;
+}
+.table-primary{
+    color: gold;
 }
 
 .column-chart {
 	width: 65%;
 	height: 300px;
-	border: 1px solid #000;
+	border: 1px solid gold;
 	margin-right: 20px;
 }
 
 .line-chart {	
 	height: 300px;	
-	border: 1px solid #000;
+	border: 1px solid gold;
 	padding: 10px 10px 10px 10px;
 	margin: 20px 20px 20px 20px;
 }
@@ -159,3 +192,14 @@ footer {
     color: #dddddd;
     margin-top: auto;
 }
+body::-webkit-scrollbar {
+    width: .45em;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: gray;
+    border-radius: 1em;
+  }
+  body::-webkit-scrollbar-track {
+    background-color:  #131313;
+  }
