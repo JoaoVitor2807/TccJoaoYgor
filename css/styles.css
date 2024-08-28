@@ -1,0 +1,161 @@
+* {
+	box-sizing: border-box;
+    font-family: "Anta", sans-serif;
+    scroll-behavior: smooth;
+}
+
+html, body { 
+  	height: 100%;
+}
+
+body {
+  	display: flex;
+  	flex-direction: column;
+  	background: rgb(30, 30, 30);     
+	margin: 0;
+}
+#container {
+	flex: 1 0 auto; 
+	padding-bottom: 20px;	
+	background-color: rgb(30, 30, 30); 
+}
+
+#search {
+	padding: 10px 0px 10px 20px;
+	margin-top: 7em;
+	background-color: rgb(30, 30, 30); 	
+    color: goldenrodx;
+}
+
+#error {
+	background-color: red;
+	color: yellow;
+	padding: 10px 0px 10px 20px;
+	display: none;
+}
+
+.input-width {
+	width: 180px !important;
+}
+
+#wrapper {
+	display: flex;	
+	flex-direction: row;
+	margin-top: 30px;	
+    text-align: center;
+}
+
+.table-div {
+	padding: 10px 10px 10px 10px;
+	width: 35%;	
+	border: 1px solid #000;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.column-chart {
+	width: 65%;
+	height: 300px;
+	border: 1px solid #000;
+	margin-right: 20px;
+}
+
+.line-chart {	
+	height: 300px;	
+	border: 1px solid #000;
+	padding: 10px 10px 10px 10px;
+	margin: 20px 20px 20px 20px;
+}
+
+
+header
+{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 7em;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    background-color: rgb(30, 30, 30);
+    border-style: solid;
+    border-color: gold;
+    border-width: .2em;
+    color: #eeeeee;
+	z-index: 999999;
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    padding-left: 2em;
+}
+.logo>a>img{
+    width: 5em;
+    border-radius: 100%;
+}
+ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    padding-left: 4.5em;
+}
+.carteira{
+    margin-right: 5em;
+}
+.cadastrologin{
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    justify-content: right  ;
+    margin-right: 1.5em;
+}
+.cadastrologin>h2>a{
+    transition-duration: .2s;
+    text-decoration: none;
+    color: gold;
+}
+
+.cadastrologin>h2>a:hover{
+    transition-duration: .4s;
+    text-decoration: none;
+    color: white;
+}
+
+.cadastrologin>h2{
+    padding: .8em;
+}
+li
+{
+    list-style: none;
+    margin-right: 1em;
+    font-size: 1.1em;
+}
+li a
+{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    text-decoration: none;
+    padding: 1em 2em;
+    color: #dddddd;
+    border-radius: 2em;
+}
+
+li a:hover
+{
+    color: gold;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: rgb(30, 30, 30);
+    color: #dddddd;
+    margin-top: auto;
+}

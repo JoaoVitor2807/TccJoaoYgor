@@ -4,7 +4,6 @@
     scroll-behavior: smooth;
 }
 
-
 body
 {
     background: rgb(30, 30, 30);     
@@ -495,13 +494,6 @@ h2{
     background-color: rgb(50, 50, 50);
     }
 }
-footer {
-    text-align: center;
-    padding: 1em 0;
-    background-color: rgb(30, 30, 30);
-    color: #dddddd;
-    margin-top: auto;
-}
 
 #cadastro-aplicacao{
     justify-content: center;
@@ -556,4 +548,110 @@ footer {
     form button:hover {
         background-color: darkgoldenrod;
     }
+}
+
+table {
+    margin-top: 7em;
+    width: 100%;
+    max-width: 60em;
+    margin: 0 auto;
+    border-collapse: collapse;
+    color: white;
+    }
+
+    table th, table td {
+    border: 1px solid gold;
+    padding: 0.75em;
+    text-align: center;
+    background-color: rgb(45, 45, 45);
+    }
+
+    table th {
+    background-color: rgb(30, 30, 30);
+    color: gold;
+    }
+
+    table tr:hover {
+    background-color: rgb(50, 50, 50);
+    }
+
+
+.pesquisar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: goldenrod;
+}
+
+#pesquisar > a{
+    text-decoration: none;
+}
+
+
+.pesquisaAcoes{
+    #search {
+        justify-content: center;
+        padding: 10px 0px 10px 20px;
+        background-color: #131313;	
+        margin-top: 7em;
+    }
+
+    #search > input{
+        background-color: goldenrod;
+        color: white;
+    }
+
+    .input-width {
+        width: 180px !important;
+    }
+    
+    #wrapper {
+        display: flex;	
+        flex-direction: row;
+        margin-top: 30px;	
+    }
+    
+    .table {
+        text-align: center;
+    }
+    
+    .table-div {
+        padding: 10px 10px 10px 10px;
+        width: 35%;	
+        border: 1px solid #000;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    .column-chart {
+        width: 65%;
+        height: 300px;
+        border: 1px solid #000;
+        margin-right: 20px;
+    }
+    
+    .line-chart {	
+        height: 300px;	
+        border: 1px solid #000;
+        padding: 10px 10px 10px 10px;
+        margin: 20px 20px 20px 20px;
+    }
+    
+    #page-footer {	
+        background-color: #212529;
+        text-align: center;
+        color: #fff;	
+        flex-shrink: 0; 
+        padding: 20px;
+    }
+}
+
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: rgb(30, 30, 30);
+    color: #dddddd;
+    margin-top: auto;
 }
