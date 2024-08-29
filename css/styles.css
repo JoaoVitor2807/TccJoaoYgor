@@ -30,7 +30,7 @@ body {
     background-color: goldenrod;
     color: white;
     border-radius: 1em;
-    font-size: .9em;
+    font-size: 1.1em;
 }
 #search input::placeholder{
     color: goldenrod;
@@ -39,6 +39,7 @@ body {
     background-color: rgb(30, 30, 30);
     border: .1em solid white;
     color: gold;
+    height: 2em;
 }
 
 #error {
@@ -49,13 +50,13 @@ body {
 }
 
 .input-width {
-	width: 180px !important;
+	width: 160px !important;
 }
 
 #wrapper {
 	display: flex;	
 	flex-direction: row;
-	margin-top: 30px;	
+	margin-top: 20px;	
     text-align: center;
 }
 
@@ -84,6 +85,10 @@ body {
 }
 .table-primary{
     color: gold;
+}
+.table th:first-child,
+.table td:first-child {
+    width: 30%;
 }
 
 .column-chart {

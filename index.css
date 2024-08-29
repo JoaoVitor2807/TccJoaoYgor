@@ -584,8 +584,10 @@ table {
     color: goldenrod;
 }
 
-#pesquisar > a{
+#pesquisar>h3>a{
     text-decoration: none;
+    color: gold;
+    
 }
 
 
