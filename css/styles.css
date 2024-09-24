@@ -208,3 +208,35 @@ body::-webkit-scrollbar {
   body::-webkit-scrollbar-track {
     background-color:  #131313;
   }
+
+  .column-chart svg rect {
+    fill: rgb(45, 45, 45);
+  }
+  .column-chart svg g * {
+    fill: white;
+  }
+  .column-chart svg g:nth-of-type(3) rect {
+    fill: gold
+  }
+  .column-chart svg g:nth-of-type(3)  g:nth-of-type(2) rect:nth-of-type(1) {
+    fill: red;
+    
+}
+.column-chart svg g:nth-of-type(3)  g:nth-of-type(2) rect:nth-of-type(2) {
+    fill: blue;
+    
+}
+.column-chart svg g:nth-of-type(3)  g:nth-of-type(2) rect:nth-of-type(3) {
+    fill: green;
+    
+}
+
+.column-chart svg g:nth-of-type(2) g:nth-of-type(1) rect {
+    fill: red
+  }
+  .column-chart svg g:nth-of-type(2) g:nth-of-type(2) rect {
+    fill: blue
+  }
+  .column-chart svg g:nth-of-type(2) g:nth-of-type(3) rect {
+    fill: green
+  }
