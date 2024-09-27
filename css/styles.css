@@ -63,7 +63,7 @@ body {
 .table-div {
 	padding: 10px 10px 10px 10px;
 	width: 35%;	
-	border: 1px solid gold;
+	border: .1em solid gold;
 	margin-left: 20px;
 	margin-right: 20px;
     color: white;
@@ -219,33 +219,63 @@ body::-webkit-scrollbar {
     fill: gold
   }
   .column-chart svg g:nth-of-type(3)  g:nth-of-type(2) rect:nth-child(1) {
-    fill: red;
+    fill: green;
 }
 .column-chart svg g:nth-of-type(3)  g:nth-of-type(2) rect:nth-child(2) {
     fill: blue;
 }
 .column-chart svg g:nth-of-type(3)  g:nth-of-type(2) rect:nth-child(3) {
-    fill: green;
+    fill: red;
 }
 .column-chart svg g:nth-of-type(3)  g:nth-of-type(2)>g:nth-child(1) rect{
-    fill: red;
+    fill: green;
 }
 .column-chart svg g:nth-of-type(3)  g:nth-of-type(2)>g:nth-child(2) rect{
     fill: blue;
 }
 .column-chart svg g:nth-of-type(3)  g:nth-of-type(2)>g:nth-child(3) rect{
-    fill: green
+    fill: red
 }
 .column-chart svg>g:nth-of-type(5) text{
     fill: black;
 }
+.column-chart svg>g:nth-of-type(1) text{
+    fill: gold;
+}
+.column-chart svg>g:nth-of-type(4) g:nth-child(2) text{
+    fill: white;
+}
 
 .column-chart svg g:nth-of-type(2) g:nth-of-type(1) rect {
-    fill: red
+    fill: green
   }
   .column-chart svg g:nth-of-type(2) g:nth-of-type(2) rect {
     fill: blue
   }
   .column-chart svg g:nth-of-type(2) g:nth-of-type(3) rect {
-    fill: green
+    fill: red
+  }
+  .line-chart svg  rect{
+    fill: rgb(45, 45, 45);
+  }
+  .line-chart svg>g:nth-of-type(1) text{
+    fill: gold;
+  }
+  .line-chart svg>g:nth-of-type(4) g:nth-child(2) text{
+    fill: white;
+  }
+  .line-chart svg>g:nth-of-type(4) g:nth-child(1) text{
+    fill: white;
+  }
+  .line-chart svg>g:nth-of-type(3)  text{
+    fill: white;
+  }
+  .line-chart svg>g:nth-of-type(3) g:nth-of-type(1) rect{
+    fill: gold;
+  }
+  .line-chart svg>g:nth-of-type(2) g text{
+    fill: white;
+  }
+  .line-chart{
+    background-color: rgb(45, 45, 45);
   }
