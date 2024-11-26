@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,20 +8,21 @@
     <link rel="stylesheet" href="index.css">
     <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header id="header">
         <div class="logo">
-            <a href="index.html"><img src="Logo.png"></a>
+            <a href="pagInicial.html"><img src="Logo.png"></a>
         </div>
         <ul>
-            <li><a href="index.html" class="home">Home</a></li>
+            <li><a href="pagInicial.html" class="home">Home</a></li>
             <li><a href="investimentos.html" class="investimentos">Investimentos</a></li>
             <li><a href="valores.html" class="tabela">Valores</a></li>
             <li><a href="carteira.html" class="carteira">Carteira</a></li>
         </ul>
         <div class="cadastrologin">
-            <h2><a href="cadastro.html" class="cadastro">Cadastro</a></h2>
-            <h2><a href="login.html" class="login">Login</a></h2>
+            <h2><a href="meuPerfil.html" class="meuPerfil">Meu Perfil</a></h2>
+            <h2><a href="index.html" class="logout">Logout</a></h2>
         </div>
     </header>
 
@@ -32,6 +34,8 @@
                 <select id="tipo-investimento" name="tipo-investimento">
                     <option value="bolsa">Bolsa de Valores</option>
                     <option value="agronegocio">Ativo do Agronegócio</option>
+                    <option value="fiis">Fundos Imobiliários</option>
+                    <option value="CDB">CDB</option>
                 </select>
 
                 <label for="nome-investimento">Nome do Investimento:</label>
@@ -60,29 +64,10 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Bolsa de Valores</td>
-                        <td>Petrobras PN</td>
-                        <td>10,000.00</td>
-                        <td>2024-08-01</td>
-                    </tr>
-                    <tr>
-                        <td>Agronegócio</td>
-                        <td>Fundo Soberano Agro 2024</td>
-                        <td>15,000.00</td>
-                        <td>2024-07-15</td>
-                    </tr>
-                    <tr>
-                        <td>Bolsa de Valores</td>
-                        <td>Vale ON</td>
-                        <td>8,500.00</td>
-                        <td>2024-06-10</td>
-                    </tr>
-                    <tr>
-                        <td>Agronegócio</td>
-                        <td>Cotação Boi Gordo</td>
-                        <td>12,000.00</td>
-                        <td>2024-05-20</td>
-                    </tr>
+                        <td>Fundos Imobiliários</td>
+                        <td>GALG11</td>
+                        <td>5,000.00</td>
+                        <td>2024-11-25</td>
                 </tbody>
             </table>
         </section>
@@ -92,4 +77,5 @@
         <p>&copy; 2024 Gestão Patrimonial</p>
     </footer>
 </body>
+
 </html>
