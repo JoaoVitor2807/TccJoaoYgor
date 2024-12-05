@@ -29,7 +29,7 @@
     <main>
         <section id="cadastro-aplicacao">
             <h2>Cadastro de Aplicação</h2>
-            <form action="salvar_aplicacao.html" method="post">
+            <form action="cadastrar_investimento.php" method="POST">
                 <label for="tipo-investimento">Tipo de Investimento:</label>
                 <select id="tipo-investimento" name="tipo-investimento">
                     <option value="bolsa">Bolsa de Valores</option>
@@ -53,23 +53,45 @@
 
         <section id="listagem-investimentos">
             <h2>Investimentos Cadastrados</h2>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Tipo de Investimento</th>
-                        <th>Nome do Investimento</th>
-                        <th>Valor Investido (R$)</th>
-                        <th>Data do Investimento</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Fundos Imobiliários</td>
-                        <td>GALG11</td>
-                        <td>5,000.00</td>
-                        <td>2024-11-25</td>
-                </tbody>
-            </table>
+            <form action="cadastrar_investimento.php">
+                <input type="text" id="nome" value="<?php if (!empty($dados)): ?>" readonly>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Tipo de Investimento</th>
+                            <th>Nome do Investimento</th>
+                            <th>Valor Investido (R$)</th>
+                            <th>Data do Investimento</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <input type="text" id="nome" value="<?php foreach ($investimentos as $Investimento): ?>"
+                            readonly>
+                        <tr>
+                            <td>
+                                <input type="text" id="nome"
+                                    value="<?php echo htmlspecialchars($Investimento['id']); ?>" readonly>
+                            </td>
+                            <td>
+                                <input type="text" id="nome"
+                                    value="<?php echo htmlspecialchars($Investimento['nome']); ?>" readonly>
+                            </td>
+                            <td>
+                                <input type="text" id="nome"
+                                    value="<?php echo htmlspecialchars($Investimento['descricao']); ?>" readonly>
+                            </td>
+                            <td>
+                                <input type="text" id="nome"
+                                    value="<?php echo htmlspecialchars($Investimento['data']); ?>" readonly>
+                            </td>
+                        </tr>
+                        <input type="text" id="nome" value="<?php endforeach; ?>" readonly>
+                    </tbody>
+                </table>
+                <input type="text" id="nome" value="<?php else: ?>" readonly>
+                <p>Não há dados cadastrados para este usuário.</p>
+                <input type="text" id="nome" value="<?php endif; ?>" readonly>
+            </form>
         </section>
     </main>
 

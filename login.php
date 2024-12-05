@@ -21,7 +21,7 @@
                     $_SESSION['id'] = $id;
                     $_SESSION['username'] = $username;
 
-                    header("location: index.html");
+                    header("location: pagInicial.html");
                 } else {
                     echo "senha incorreta.";
                 }

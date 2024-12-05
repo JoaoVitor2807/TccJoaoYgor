@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestão patrimonial</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="header">
+        <div class="logo">
+            <a href="index.html"><img src="Logo.png"></a>
+        </div>
+        <ul>
+            <li><a href="index.html" class="home">Home</a></li>
+            <li><a href="index.html" class="investimentos">Investimentos</a></li>
+            <li><a href="index.html" class="tabela">Valores</a></li>
+            <li><a href="index.html" class="carteira">Carteira</a></li>
+        </ul>
+        <div class="cadastrologin">
+        </div>
+    </header>
+    <article>
+        <h1 class="cadastroH1">Cadastro</h1>
+        <form action = "editar_usuario.php" method = "POST">
+            <div class="cadastro">
+                <div>Seu Nome</div>
+                <input type="text" placeholder="Nome" id="name" name="username" />
+                <div>Endereço de Email</div>
+                <input type="text" placeholder="Email" name="email"/>
+            </div>
+            <input type="submit" value="Editar" class="botao"/>
+        </form>
+        
+    </article>
+</body>
+</html>
